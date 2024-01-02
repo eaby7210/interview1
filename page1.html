@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Package Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Package Details</h1>
+        <form class="form" action="">
+
+            <div class="formDiv">
+                <div>
+                    <label for="package">Package Name: </label>
+                    <input type="text" name="package" id="package" placeholder="Package Name">
+                </div>
+                <div>
+                    <label for="rate">Rate:</label>
+                    <input type="text" name="rate" id="rate" placeholder="Rate">
+                </div>
+                <div>
+                    <label for="fromDate">Date From:</label>
+                    <input type="date" name="fromDate" id="fromDate">
+                </div>
+                <div>
+                    <label for="toDate">Date To:</label>
+                    <input type="date" name="toDate" id="toDate">
+                </div>
+                <div>
+                    <label for="number">Contact Number:</label>
+                    <input type="text" name="number" id="number">
+                </div>
+                <div class="formButton"><button type="button" class="add">Add</button></div>
+            </div>
+
+
+        </form>
+        <div class="tableDiv">
+            <table border="1" class="packageTable">
+                <tbody class="tbody">
+                    <tr>
+
+                        <th>Package Name</th>
+                        <th>Rate</th>
+                        <th>Date From</th>
+                        <th>Date To </th>
+                        <th>Contact No</th>
+                        <th>Places</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+
+                        <td>Package Name</td>
+                        <td>Rate</td>
+                        <td>Date From</td>
+                        <td>Date To </td>
+                        <td>Contact No</td>
+                        <td class="places">Add Places</td>
+                        <td class="edit">Edit</td>
+                        <td class="delete">Delete</td>
+                    </tr>
+                    <tr>
+
+                        <td>Package Name</td>
+                        <td>Rate</td>
+                        <td>Date From</td>
+                        <td>Date To </td>
+                        <td>Contact No</td>
+                        <td class="places">Add Places</td>
+                        <td class="edit">Edit</td>
+                        <td class="delete">Delete</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="pageOne.js"></script>
+</body>
+
+</html>

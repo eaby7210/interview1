@@ -1,0 +1,52 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(251, 218, 169);
+}
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100dvh;
+}
+h1 {
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: -10px;
+  padding: 2rem;
+}
+.formButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 15rem;
+  padding: 2rem;
+}
+.formDiv div label {
+  text-align: right;
+}
+.formDiv div input {
+  display: flex;
+  margin-bottom: 8px;
+  width: 15rem;
+  height: 27px;
+}
+.tableDiv {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.packageTable {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border: 1px;
+}
